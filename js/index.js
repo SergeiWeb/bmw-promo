@@ -1,9 +1,13 @@
-import { accordion } from './components/accordion.component.js'
-import { smothScroll } from './components/smothScroll.component.js'
-import { tabs } from './components/tabs.component.js'
+import { accordionComponent } from './components/accordion.component.js'
+import { burgerMenuComponent } from './components/burger.component.js'
+import { modalWindowComponent } from './components/modal.component.js'
+import { smothScrollComponent } from './components/smothScroll.component.js'
+import { tabsComponent } from './components/tabs.component.js'
 
 document.addEventListener('DOMContentLoaded', () => {
-	smothScroll()
-	accordion()
-	tabs()
+	smothScrollComponent()
+	accordionComponent()
+	tabsComponent()
+	modalWindowComponent()
+	burgerMenuComponent()
 })

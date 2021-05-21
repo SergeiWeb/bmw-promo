@@ -1,4 +1,4 @@
-export const smothScroll = () => {
+export const smothScrollComponent = () => {
 	const smothScrollElems = document.querySelectorAll(
 		'a[href^="#"]:not(a[href="#])'
 	)
@@ -14,6 +14,4 @@ export const smothScroll = () => {
 			})
 		})
 	})
-
-	console.log(smothScrollElems)
 }

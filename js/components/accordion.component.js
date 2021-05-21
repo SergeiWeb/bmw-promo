@@ -1,4 +1,4 @@
-export const accordion = () => {
+export const accordionComponent = () => {
 	const featureLinkElems = document.querySelectorAll('.feature__link')
 	const featureSubElems = document.querySelectorAll('.feature-sub')
 

@@ -1,4 +1,4 @@
-export const tabs = () => {
+export const tabsComponent = () => {
 	const tabsHandlerElems = document.querySelectorAll('[data-tabs-handler]')
 	const tabsFieldElems = document.querySelectorAll('[data-tabs-field]')
 
